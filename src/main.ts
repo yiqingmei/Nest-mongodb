@@ -1,6 +1,6 @@
 // main.ts (或应用程序的入口文件)
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { AppModule } from './modules/app/app.module';
 import * as mongoose from 'mongoose';
 import { ConnectOptions } from 'mongoose';
 
